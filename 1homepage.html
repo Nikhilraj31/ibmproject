@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Nikhil's Quiz Maker</title>
+		<style>
+			body {
+				background-color: #2bced1;
+				text-align: center;
+				color: white;
+			}
+			
+			.heading {
+				color: #048295;
+			}
+		
+			.container {
+				background-color: #14bbbe;
+				width: 70%;
+				margin:0 auto;
+				padding : 10px;
+				border: 0px;
+				border-radius: 25px;
+			}
+			
+			.column {
+				background-color: #048295;
+				height: 300px;
+				width: 45%;
+				display: inline-block;			
+				border: 0px;
+				border-radius: 26px;
+				font-size: 60px;
+				transition-duration: 0.4s;
+			}
+
+			.column:hover {
+				background-color: #c2d4c1;
+				color: white;
+				box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1 class="heading" >Please choose your role.</h1>
+		<div class = "container">
+			<input type="button" class="column" onclick="location.href='2teacher_option_page.html';" value="TEACHER" />
+			<input type="button" class="column" onclick="location.href='3new_quiz.html';" value="STUDENT" />
+		</div>	
+	</body>
+</html>
