@@ -1,2 +1,0 @@
-# navigusproject
-htmlcssjsproject
